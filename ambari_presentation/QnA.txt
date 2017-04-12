@@ -1,0 +1,7 @@
+Questions : 
+1. My Hadoop cluster is already installed. Can I use ambari to manage it.
+2. I want to install my own hadoop version and manage it through amber from scratch.
+3. I want to add my own custom services to amber stack
+4. Upgrading stack HDP versus upgrading Ambari.
+5. Can I upgrade individual services using Ambari.
+
