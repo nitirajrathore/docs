@@ -1,7 +1,20 @@
 Questions : 
-1. My Hadoop cluster is already installed. Can I use ambari to manage it.
-2. I want to install my own hadoop version and manage it through amber from scratch.
-3. I want to add my own custom services to amber stack
-4. Upgrading stack HDP versus upgrading Ambari.
-5. Can I upgrade individual services using Ambari.
+1. My Hadoop cluster is already installed. Can I use ambari to manage it. — done that for some clients, kind of complex. takeover_config_merge.py
+
+2. I want to install my own hadoop version and manage it through amber from scratch.  — custom stack is possible
+
+
+3. I want to add my own custom services to amber stack   — yes, recommended to remove it when upgrading through Ambari and add it back again after upgrading.
+
+
+4. Upgrading stack HDP versus upgrading Ambari.    — upgrade amber first from cli and then upgrade HDP 
+
+
+5. Can I upgrade individual services using Ambari.    — No, but some work is going on for future support
+
+
+
+support other stacks like PHD : pivotal HD — emc2
+example HDF is  
+HCS — metron 
 
